@@ -129,3 +129,73 @@ body,html{
       color: rgba(0, 0, 0, 0.5)
       
     }
+
+  /* "Users-Feedback-Section */
+
+  .container {
+      max-width: 1200px;
+      margin: auto;
+      text-align: center;
+    }
+
+    h2 {
+      font-size: 32px;
+      color: #222;
+      margin-bottom: 40px;
+    }
+
+    .Reviewer-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    .card {
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      width: 300px;
+      padding: 20px;
+      text-align: left;
+    }
+
+    .stars {
+      color: orange;
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+
+    .card h3 {
+      font-size: 18px;
+      color: #222;
+      margin-bottom: 10px;
+    }
+
+    .card p {
+      font-size: 14px;
+      color: #555;
+      margin-bottom: 15px;
+    }
+
+    .reviewer {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .reviewer img {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+    }
+
+    .reviewer-info {
+      font-size: 14px;
+      color: #333;
+    }
+
+    .reviewer-info .date {
+      color: #888;
+      font-size: 12px;
+    }
