@@ -57,42 +57,40 @@ body,html{
   margin-left: 300px;
 }
 /* Action section */
-.action-section{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding:40px;
+  .action-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:40px;
 
-}
-.action-container{
-  width: 517px;
-  height: 203px;
-  gap:23px;
-  margin-left: 130px;
-  
-  
+  }
+  .action-container{
+    width: 517px;
+    height: 203px;
+    gap:23px;
+    margin-left: 130px;
 
-}
-.action-container h2{
-  width: 517px;
-  height: 49px;
-  font-size: 42px;
-  font-weight: bold;
+  }
+  .action-container h2{
+    width: 517px;
+    height: 49px;
+    font-size: 42px;
+    font-weight: bold;
 
-}
-.action-container p{
-  width: 517px;
-  height: 60px;
-  font-size: 24px;
-  color: #252432;
-}
-.image-content{
-  width: 403px;
-  height: 328px;
-  border-radius: 48px;
-  margin-right: 130px;
-  margin-top: 60px;
-}
+  }
+  .action-container p{
+    width: 517px;
+    height: 60px;
+    font-size: 24px;
+    color: #252432;
+  }
+  .image-content{
+    width: 403px;
+    height: 328px;
+    border-radius: 48px;
+    margin-right: 130px;
+    margin-top: 60px;
+  }
 
 /* productive-users-section */
 
@@ -225,3 +223,91 @@ body,html{
       border-radius: 48px;
       box-shadow: 0 8px 20px rgba(0, 0, 0, 0.305);
     }
+
+
+  /* Touch section */
+
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+  gap: 60px;
+}
+
+.contact-left h1 {
+  font-size: 97px;
+  font-weight: bold;
+  margin-top: 200px ;
+  line-height: 1.2;
+  color: #000;
+}
+
+.contact-right form {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  margin-top: 100px;
+}
+
+.contact-right label {
+  margin-bottom: 6px;
+  font-weight: bold;
+}
+
+.contact-right input,
+.contact-right textarea {
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+ 
+
+.button-Touch{
+    background-color:#4E47FF;
+    font-weight: bold;
+    font-size: 16px;
+    color:#FFFFFF;
+    padding: 19px 101px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Footer Section */
+
+ .Footer-Section{
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 120px;
+}
+.logo {
+  font-size: 100px;
+  font-weight: 800;
+  color: #4E47FF;
+  margin-bottom: 20px;
+}
+
+.description {
+  font-size: 20px;
+  color: #8987A1;
+  margin-bottom: 30px;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  color: #8987A1;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
