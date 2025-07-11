@@ -7,13 +7,13 @@
 body,html{
   margin: 0;
   padding: 0;
+  color:#1E1E1E;
 }
 
 .banner-bg{
     background-image: url('../Assets/Hero-bg.png');
     width: 1535px;
     height: 600px;
-
 }
 .nav-section{
     display:flex;
@@ -198,4 +198,30 @@ body,html{
     .reviewer-info .date {
       color: #888;
       font-size: 12px;
+    }
+
+
+    /* Webflow pic Section */
+    
+    .section {
+      padding: 50px ;
+      text-align: center;
+    }
+
+    .section h1 {
+      color: #000000;
+      font-size: 50px;
+      margin: 30px auto;
+    }
+
+    .section p {
+       color:rgba(0, 0, 0, 0.5);
+    }
+
+    .section img {
+      margin-top: 40px;
+      width: 840px;
+      height: 365px;
+      border-radius: 48px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.305);
     }
